@@ -10,7 +10,7 @@ CLIENT_SECRET = "a37973bfe4944e5eb7b1bef93b5637ba"
 
 # Load the dataset and similarity matrix from pickle files
 df_sample = pd.read_pickle('df_sample.pkl')
-similarity = pd.read_pickle('https://drive.google.com/file/d/1Hwos6UKxh5-AjOGdhyc5NXbkf3zZqDYW/view?usp=sharing')
+similarity = pd.read_pickle('similarity.pkl')
 # gdown.download('https://drive.google.com/uc?id=1Hwos6UKxh5-AjOGdhyc5NXbkf3zZqDYW', 'similarity.pkl', quiet=False)
 # similarity = pd.read_pickle('similarity.pkl')
 

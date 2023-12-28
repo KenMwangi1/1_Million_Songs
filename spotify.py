@@ -1,4 +1,4 @@
-pip install -r requirements.txt
+!pip install -r requirements.txt
 import pickle
 import streamlit as st
 import spotipy

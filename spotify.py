@@ -4,7 +4,7 @@ import streamlit as st
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
-
+import os
 
 CLIENT_ID = "7491ccadae8849a1aef06e054776e16f"
 CLIENT_SECRET = "a37973bfe4944e5eb7b1bef93b5637ba"

@@ -5,13 +5,12 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
-import os
 
 CLIENT_ID = "7491ccadae8849a1aef06e054776e16f"
 CLIENT_SECRET = "a37973bfe4944e5eb7b1bef93b5637ba"
 
 # Load the dataset and similarity matrix from pickle files
-df_sample = pd.read_pickle('df_sample.pkl')
+df_sample = pd.read_pickle('/mount/src/1_million_songs/df_sample.pkl')
 
 if os.path.exists('df_sample.pkl'):
     print("File 'df_sample.pkl' exists.")

@@ -5,11 +5,19 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
+import os
+
 CLIENT_ID = "7491ccadae8849a1aef06e054776e16f"
 CLIENT_SECRET = "a37973bfe4944e5eb7b1bef93b5637ba"
 
 # Load the dataset and similarity matrix from pickle files
 df_sample = pd.read_pickle('df_sample.pkl')
+
+if os.path.exists('df_sample.pkl'):
+    print("File 'df_sample.pkl' exists.")
+else:
+    print("File 'df_sample.pkl' does not exist or cannot be found.")
+
 similarity = pd.read_pickle('similarity.pkl')
 # gdown.download('https://drive.google.com/uc?id=1Hwos6UKxh5-AjOGdhyc5NXbkf3zZqDYW', 'similarity.pkl', quiet=False)
 # similarity = pd.read_pickle('similarity.pkl')

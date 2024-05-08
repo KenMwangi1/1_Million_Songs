@@ -9,7 +9,7 @@ CLIENT_ID = "7491ccadae8849a1aef06e054776e16f"
 CLIENT_SECRET = "a37973bfe4944e5eb7b1bef93b5637ba"
 
 # Load the dataset and similarity matrix from pickle files
-df_sample = pd.read_pickle('df_sample.pkl', encoding='latin-1')
+df_sample = pd.read_pickle('df_sample.pkl')
 similarity = pd.read_pickle('similarity.pkl')
 # gdown.download('https://drive.google.com/uc?id=1Hwos6UKxh5-AjOGdhyc5NXbkf3zZqDYW', 'similarity.pkl', quiet=False)
 # similarity = pd.read_pickle('similarity.pkl')

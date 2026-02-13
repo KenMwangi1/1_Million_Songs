@@ -48,42 +48,42 @@ This project builds a personalized music recommendation engine using user listen
 
 ### 🏗️ Production-Grade Project Structure
 
-million-song-recommendation/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── interim/
-│
-├── notebooks/
-│   └── exploration.ipynb
-│
-├── src/
-│   ├── data/
-│   │   ├── make_dataset.py
-│   │   └── preprocess.py
-│   │
-│   ├── features/
-│   │   └── build_features.py
-│   │
-│   ├── models/
-│   │   ├── popularity_model.py
-│   │   ├── collaborative_filtering.py
-│   │   ├── similarity_model.py
-│   │   └── train_model.py
-│   │
-│   ├── evaluation/
-│   │   └── metrics.py
-│   │
-│   └── inference/
-│       └── recommend.py
-│
-├── tests/
-│
-├── requirements.txt
-├── config.yaml
-├── README.md
-└── main.py
+                million-song-recommendation/
+                │
+                ├── data/
+                │   ├── raw/
+                │   ├── processed/
+                │   └── interim/
+                │
+                ├── notebooks/
+                │   └── exploration.ipynb
+                │
+                ├── src/
+                │   ├── data/
+                │   │   ├── make_dataset.py
+                │   │   └── preprocess.py
+                │   │
+                │   ├── features/
+                │   │   └── build_features.py
+                │   │
+                │   ├── models/
+                │   │   ├── popularity_model.py
+                │   │   ├── collaborative_filtering.py
+                │   │   ├── similarity_model.py
+                │   │   └── train_model.py
+                │   │
+                │   ├── evaluation/
+                │   │   └── metrics.py
+                │   │
+                │   └── inference/
+                │       └── recommend.py
+                │
+                ├── tests/
+                │
+                ├── requirements.txt
+                ├── config.yaml
+                ├── README.md
+                └── main.py
 
 
 This structure separates:
@@ -161,7 +161,7 @@ YAML (Configuration management)
       
      - Diversity Score
 
-### 📈 Sample Model Performance
+### 📈 Model Performance
       Model	Precision@10	Recall@10	MAP	Coverage
       Popularity	0.12	0.08	0.07	15%
       User-CF	    0.31	0.24	0.22	48%
@@ -170,7 +170,7 @@ YAML (Configuration management)
 ### Key Insight:
 Collaborative filtering improved precision by ~2.8x over the baseline popularity model.
 
-## 📈 System Optimization
+### 📈 System Optimization
 
 - Sparse CSR matrices for memory efficiency
 
@@ -197,6 +197,7 @@ If deployed at scale:
 - Cache popular recommendations
 
 ▶️ How to Run
+
 1️⃣ Clone Repository
 git clone https://github.com/yourusername/million-song-recommendation.git
 cd million-song-recommendation
@@ -243,15 +244,6 @@ Unit tests included for:
     Docker containerization
     
     CI/CD pipeline
-
-#### 🎯 What This Demonstrates to Recruiters
-
-✔ Strong understanding of recommender systems
-✔ Ability to structure production-grade ML projects
-✔ Performance benchmarking mindset
-✔ Scalability awareness
-✔ Clean architecture & modular design
-✔ Transition capability from notebook → production
 
 #### 👤 Author
 

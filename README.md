@@ -4,7 +4,7 @@
 
 A scalable recommendation engine built on the Million Song Dataset using collaborative filtering and similarity modeling. Designed with production architecture principles, performance evaluation, and extensibility in mind.
 
-<img width="540" height="360" alt="image" src="https://github.com/user-attachments/assets/80b6c6cf-f35e-4dde-a2ac-066f34c6f2e6" />
+
 
 ## 🔥 Quick Summary
 
@@ -51,6 +51,8 @@ This project demonstrates:
     ✔ Production-grade project structure
     
     ✔ Reproducible data science workflow
+    
+<img width="540" height="360" alt="image" src="https://github.com/user-attachments/assets/80b6c6cf-f35e-4dde-a2ac-066f34c6f2e6" />
 
 It reflects real-world recommender system challenges including:
 

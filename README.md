@@ -1,6 +1,6 @@
 # 🎵 Million Song Recommendation System
 
-# _Production-Ready Machine Learning Project#
+# _Production-Ready Machine Learning Project_
 
 A scalable recommendation engine built on the Million Song Dataset using collaborative filtering and similarity modeling. Designed with production architecture principles, performance evaluation, and extensibility in mind.
 
